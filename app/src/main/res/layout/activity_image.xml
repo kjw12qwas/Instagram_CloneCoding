@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImageActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:id="@+id/showImage_ImageView"/>
+
+    <Button
+        android:text="openGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_Gallery_button"/>
+    <Button
+        android:text="uploadGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/upload_Gallery_button"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
